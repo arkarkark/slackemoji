@@ -1,10 +1,9 @@
-# social-purge
-Remove old data from social media
+# Slack Emoji
 
-icon by: [deviaanimus](http://deviaanimus.deviantart.com/art/Shredder-icon-188132356)
+When you select a file to add as an emoji this puts the filename in the emoji name field.
 
-chrome extension available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/social-purge/mfmkgocdbgbngmnoeadfddiiiobmlmce).
 
-# Changelog
+## Changelog
 
-  * 0.0.6 - run the highlighter on facebook 200ms after a pageload to catch stuff rendered on page load.
+ * 0.1.2 - updated README
+ * 0.1.1 - first version
