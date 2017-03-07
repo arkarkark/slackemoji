@@ -1,0 +1,11 @@
+{
+  "name": "slackemoji",
+  "version": "0.0.1",
+  "description": "Chrome extension to make making slack emoi easier",
+  "private": true,
+  "engine": "node ^4.7.0",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "cson": "^4.0.0"
+  }
+}
