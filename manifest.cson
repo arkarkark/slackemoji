@@ -1,11 +1,12 @@
 # Use cson2json from cson (npm) to convert this (Emacs does it for me).
 manifest_version: 2
 name: 'Slack Emoji'
-version: '0.1.2'
-description: 'make it easier to add emoji to slack.'
+version: '0.1.5'
+description: 'Make it easier to add emoji to slack. Sets the name to be the same as the filename and focuses the submit button.'
 content_scripts: [
   matches: ["*://*.slack.com/*"]
   js: ["slackemoji.js"]
+  css: ["slackemoji.css"]
 ]
 permissions: [
   "*://*.slack.com/*"
